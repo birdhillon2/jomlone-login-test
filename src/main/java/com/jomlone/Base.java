@@ -13,6 +13,7 @@ public class Base {
         driver.findElement(By.id("email")).sendKeys("93karanbir@gmail.com");
         driver.findElement(By.id("password-field")).sendKeys("baToshinden1!");
         driver.findElement(By.id("sbBt")).click();
+        driver.findElement(By.xpath("//body/section[1]/div[3]/div[1]/div[1]/div[1]/span[1]")).click();
 
     }
 
